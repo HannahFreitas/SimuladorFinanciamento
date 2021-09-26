@@ -1,0 +1,81 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: rgb(49, 35, 129);
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  justify-content: center;
+  margin-left: 20px;
+  background-color: rgb(39, 132, 194);
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.grupo:before,
+.grupo:after {
+  display: table;
+}
+
+.grupo:after {
+  clear: both;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #1c1c1c;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+#botao {
+  font-size: large;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
